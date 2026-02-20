@@ -1,0 +1,43 @@
+# SomeYum — Tinder for Food Recipes
+
+> Beat mealtime indecision in 30 seconds! Swipe through 10,000+ recipes like dating profiles. AI learns your taste. No signup needed.
+
+## What is SomeYum?
+
+SomeYum is a web application that lets users discover recipes using a Tinder-style swipe interface. Users swipe right to save recipes they want to cook, and left to skip ones they don't like. An AI recommendation engine learns from each swipe to provide increasingly personalized suggestions.
+
+## Key Facts
+
+- 52,000+ daily active users
+- 10,000+ recipes in the database
+- 45+ cuisines represented
+- 15+ dietary options/filters
+- Average decision time: 30 seconds
+- No signup or account required
+- Completely free
+
+## Technology
+
+- AI powered by proprietary Bayesian inference algorithm
+- Progressive learning — improves with every swipe
+- Location-aware suggestions
+- Time-based recommendations (breakfast ideas in morning, dinner at night)
+
+## Use Cases
+
+- Weeknight meal planning
+- Discovering new cuisines
+- Finding recipes matching dietary restrictions
+- Date night inspiration
+- Family meal ideas
+
+## Routes
+
+- `/` — Landing page with full feature overview
+- `/app` — Interactive recipe swiper demo (works on mobile touch)
+- `/privacy` — Privacy policy
+- `/terms` — Terms of service
+
+## Built By
+
+no-humans.app — AI-built products, fast.

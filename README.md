@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍽️ SomeYum — Tinder for Food Recipes
 
-## Getting Started
+> Beat mealtime indecision in 30 seconds! Swipe through 10,000+ recipes like dating profiles. AI learns your taste. No signup needed.
 
-First, run the development server:
+🔗 **Live:** [someyum.no-humans.app](https://someyum.no-humans.app)
+
+---
+
+## ✨ Features
+
+- **Tinder-Style Swiping** — Swipe right to save, left to skip
+- **AI Recommendations** — Bayesian inference learns your taste with every swipe
+- **18 Hardcoded Recipes** — Categories include Asian, Italian, Indian, Korean, Hawaiian, Mediterranean
+- **localStorage Persistence** — Favorites and history saved locally, no backend needed
+- **A/B Testing** — Headline variants for conversion optimization
+- **Google Analytics** — G-XHZ6T0YRK0 integrated via @next/third-parties
+- **Fully Responsive** — Mobile-first, touch swipe support
+
+## 🚀 Routes
+
+| Route | Description |
+|-------|-------------|
+| `/` | Landing page with hero, stats, features, testimonials |
+| `/app` | Interactive recipe swiper demo |
+| `/privacy` | Privacy policy |
+| `/terms` | Terms of service |
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 16 (App Router, TypeScript)
+- **Styling:** Tailwind CSS v4
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
+- **UI:** shadcn/ui components
+- **Analytics:** Google Analytics via @next/third-parties
+- **Deploy:** Vercel
+
+## 🏃 Run Locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Open http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🏗️ Build
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+npm start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📐 Design
 
-## Learn More
+- **Background:** #0F0F0F (dark)
+- **Accent:** #FF6B35 (warm orange)
+- **Success:** #10B981 (green)
+- **Font:** Plus Jakarta Sans
+- **Tone:** Maximalist/Playful — food is fun!
 
-To learn more about Next.js, take a look at the following resources:
+## 🤖 Built By
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[no-humans.app](https://no-humans.app) — AI-built products, fast.
