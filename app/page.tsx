@@ -291,7 +291,7 @@ export default function LandingPage() {
             <span className="text-xl font-black text-white">SomeYum</span>
           </div>
           <Link
-            href="/app"
+            href="https://app.visieasy.com/" target="_blank" rel="noopener noreferrer"
             onClick={trackCta}
             className="bg-[#FF6B35] hover:bg-orange-500 text-white font-bold px-5 py-2.5 rounded-xl text-sm transition-all hover:shadow-lg hover:shadow-orange-500/30"
           >
@@ -337,17 +337,19 @@ export default function LandingPage() {
             className="flex flex-col sm:flex-row gap-4 justify-center mb-16"
           >
             <Link
-              href="/app"
+              href="https://app.visieasy.com/" target="_blank" rel="noopener noreferrer"
               onClick={trackCta}
               className="pulse-glow inline-flex items-center justify-center gap-2 bg-[#FF6B35] hover:bg-orange-500 text-white font-bold px-8 py-4 rounded-2xl text-lg transition-all hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/40"
             >
               {v.cta} <ArrowRight size={20} />
             </Link>
             <a
-              href="#how-it-works"
+              href="https://apps.apple.com/ua/app/someyum-recipe-swiper/id6748638722"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 border border-orange-900/50 hover:border-orange-500/50 text-gray-300 hover:text-white font-semibold px-8 py-4 rounded-2xl text-lg transition-all"
             >
-              See How It Works
+              📱 Download iOS App
             </a>
           </motion.div>
 
@@ -682,7 +684,7 @@ export default function LandingPage() {
               Join 52,000+ home cooks swiping daily. No signup, no credit card, no excuses.
             </p>
             <Link
-              href="/app"
+              href="https://app.visieasy.com/" target="_blank" rel="noopener noreferrer"
               onClick={trackCta}
               className="pulse-glow inline-flex items-center gap-2 bg-[#FF6B35] hover:bg-orange-500 text-white font-black text-xl px-10 py-5 rounded-2xl transition-all hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/40"
             >
